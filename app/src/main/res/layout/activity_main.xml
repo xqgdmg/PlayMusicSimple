@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="1dp"
+    android:background="@drawable/widget_bg"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="虾米音乐 随心而动"
+            android:textColor="#f0f0f0"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btnPlayOrStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:src="@drawable/player_btn_radio_play_normal" />
+
+
+</LinearLayout>
